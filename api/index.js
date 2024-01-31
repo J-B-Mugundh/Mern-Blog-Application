@@ -51,6 +51,10 @@ app.get("/profile", (req, res) => {
     })
     res.json(req.cookies);
 })
+
+app.post("/logout", (req, res) => {
+    res.cookie('token', '').json('ok')
+})
 app.listen(4000);
 
 // mongodb+srv://mugundhjb:mugundh123@cluster0.cin9jqd.mongodb.net/?retryWrites=true&w=majority
