@@ -20,14 +20,14 @@ export default function Header() {
       console.error('Error fetching profile:', error);
       setUserInfo(null); // Set user info to null if an error occurs
     });
-  }, [setUserInfo]); // Include setUserInfo in the dependency array
+  }, [userInfo, setUserInfo]); // Include userInfo and setUserInfo in the dependency array
 
   function logout() {
     fetch('http://localhost:4000/logout', {
       credentials: 'include',
       method: 'POST',
     }).then(() => {
-      setUserInfo(null); // Set user info to null after successful logout
+      setUserInfo(null);
     }).catch(error => {
       console.error('Error logging out:', error);
     });
