@@ -27,7 +27,7 @@ In this assignment, I've developed a MERN (MongoDB, Express.js, React.js, Node.j
 2. Download and set up MongoDB.
 3. Clone this repository.
 4. Navigate to the project directory and install dependencies using `npm install` in both the root directory and the client directory.
-5. Start the server with `npm start` in the root directory.
+5. Start the server with `npm start` in the api directory.
 6. Start the client with `npm start` in the client directory.
 
 ## Contributing
