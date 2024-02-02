@@ -67,6 +67,7 @@ export default function CreatePost() {
       value={content}
       theme={'snow'}
       modules={modules} 
+      onChange={ev => setContent(ev)}
       formats={formats}
       />
       <button style={{marginTop:'5px'}}>Create post</button>
