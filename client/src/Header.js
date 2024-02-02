@@ -41,17 +41,29 @@ export default function Header() {
       <nav>
         {username && (
           <>
-            <Link to="/create">Create new post</Link>
-            <a onClick={logout}>Logout ({username})</a>
+            <Link to="/create" style={buttonStyle}>Create new post</Link>
+            <a onClick={logout} style={buttonStyle}>Logout ({username})</a>
           </>
         )}
         {!username && (
           <>
-            <Link to="/login">Login</Link>
-            <Link to="/register">Register</Link>
+            <Link to="/login" style={buttonStyle}>Login</Link>
+            <Link to="/register" style={buttonStyle}>Register</Link>
           </>
         )}
       </nav>
     </header>
   );
 }
+
+const buttonStyle = {
+  padding: '10px',
+  marginRight: '10px',
+  textDecoration: 'none',
+  color: '#fff',
+  backgroundColor: '#007bff',
+  border: 'none',
+  borderRadius: '5px',
+  cursor: 'pointer',
+};
+
