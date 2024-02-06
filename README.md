@@ -2,7 +2,7 @@
 
 Welcome to my Bharat Intern Task 2 repository! 🚀 
 
-In this assignment, I've developed a MERN (MongoDB, Express.js, React.js, Node.js) blog application that allows users to create, read, update, and delete blog posts. Below, you'll find essential details about the technologies used, key features, achievements, instructions to get started, and more.
+In this assignment, I've developed a MERN (MongoDB, Express.js, React.js, Node.js) blog application that allows users to create, read, and update blog posts. Below, you'll find essential details about the technologies used, key features, achievements, instructions to get started, and more.
 
 ## Technologies Utilized
 - **MongoDB:** A robust NoSQL database for storing blog posts and user information.
@@ -13,7 +13,7 @@ In this assignment, I've developed a MERN (MongoDB, Express.js, React.js, Node.j
 
 ## Key Features
 - **User Authentication:** Users can register, login, and logout securely using JWT for authentication.
-- **CRUD Operations:** Full CRUD (Create, Read, Update, Delete) functionality for managing blog posts.
+- **Blog Operations:** Create, Read, Update functionality for managing blog posts.
 - **Responsive Design:** The application is designed to be responsive and accessible on various devices and screen sizes.
 - **User-Friendly Interface:** An intuitive user interface for creating and managing blog posts.
 
